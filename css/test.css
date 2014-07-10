@@ -1,0 +1,23 @@
+#splitter{
+    height:150px;
+}
+
+.pane{
+    width:50%;
+    height:100%;
+    float:left;
+}
+
+#tocPane{
+    overflow: hidden;
+    background-color:red;
+}
+
+#contentPane{
+    overflow: auto;
+    background-color:green;
+}
+
+.inner{
+    width: 300px;
+}

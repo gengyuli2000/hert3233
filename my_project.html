@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<script src="js/jquery.js" type="text/javascript"></script>
+	<script src="js/contentToggle.js" type="text/javascript"></script>
+	
+	<title> My Project </title>
+<head>
+
+<body>
+	<div id="container">
+	
+		<div id="header">
+			<h1>Gengyu Li</h1>
+			<p>D.Phil. Student in Neuroscience</p>
+		</div> <!--header end-->
+		
+		<div id="logo">
+			<img src="images/oxford_logo.gif" alt="">
+		</div> <!--logo end-->
+		
+		<div id="menu">
+			<ul>
+				<li><a href = "index.html">Home</a></li>
+				<li><a href = "about_me.html">About Me</a></li>
+				<li><a href = "my_project.html">My Project</a></li>
+				<li><a href = "publications.html">Publications</a></li>
+				<li><a href = "tools.html">Tools</a></li>
+			</ul>
+		</div> <!--menu end-->
+		
+			<div id="content">
+			<h2>My Project</h2>
+			<h3>
+				What I am studying
+			</h3>
+			<p>The hippocampus is a brain structure that is involved in memory formation, where inputs (contextual information) are processed here and converted to outputs (firing of pyramidal cells). The firing of pyramidal cells are regulated by more than 20 types of inhibitory interneurons, and we still don't know exactly how this works.</p>
+			<p>I am studying one type of interneuron, called the neurogliaform cells (NGFCs), to see how they function within the hippocampal circuit. NGFCs form synapses onto the distal tufts of pyramidal cell apical dendrites alongside excitatory inputs from the entorhinal cortex. NGFCs also express neuronal nitric oxide synthase (nNOS), are often synaptically coupled, and fire during theta oscillations <em>in vivo</em>.</p>
+			
+			<div id="subheader1">
+				<h5>Show image of hippocampal interneuron subtypes</h5>
+			</div>
+			
+			<div id="subcontent1" class="subcontent">
+				<img src="images/cell_type.jpg" width="800" height="530">
+			<h4 class="reference"> Peter Somogyi and Thomas Klausberger, The Journal of Phsyiology, 2005</h4> 
+			</div>
+			
+			<h3>
+				What I have found, a summary
+			</h3>
+			<p> I found that when theta-associated activity patterns were evoked in NGFCs in rat hippocampal slices, the cells showed a transient reduction in unitary IPSP amplitude. This "firing-induced suppression of inhibition" (FSI) required back-propagation of action potentials, calcium influx through L-type calcium channels, nNOS activity, and activation of NO-sensitive guanylyl cyclase (NO-sGC) receptors, which are present on presynaptic terminals. FSI also indirectly increased the amplitude of EPSPs. Thus FSI may enhance spatial and temporal summation of excitatory inputs to NGFCs, thus regulating their inhibition of pyramidal cells.</p>
+			
+			<!--h5 used for subheaders-->
+			
+			<div id="subheader2">
+				<h5>1. <em>In vivo</em>firing induces suppresion of inhibition (FSI)</h5>
+			</div>
+			<div id="subcontent2" class="subcontent">
+				<p>Injection of <em>in vivo</em> firing pattern into the
+				postsynaptic cell induces FSI. FSI requires action potential to be triggered and subthrehold firing pattern cannot trigger FSI.</p>
+				<p>The suppresion is proportional, suggesting it is likely to be a presynaptic mechanism and due to retrograde signalling which were realeased during postsynaptic cell firing. </p>
+			</div>
+			
+			<div id="subheader3">
+				<h5>2. What happens during firing?</h5>
+			</div>
+			
+			<div id="subcontent3" class="subcontent">
+				<p>I found that action potentials backpropagate in these neurons, here is a video of a recording done with Voltage Imaging.</p>
+				
+				<video width="320" height="320" controls="controls" src="images/movie110613_CAL.mp4"></video>
+				
+				<p>In addition, using Calcium Imaging I have found that cell pairs showing FSI have higher dendritic calcium level.
+				Possibly due to backpropating action potential activates dendritic calcium channels.</p>
+				<p>Using pharmcology I have found this calcium influx is indeed through calcium channels (L-type) and not from stores.</p>	
+			</div>
+			
+			<div id="subheader4">
+				<h5>3. Which messenger(s) is responsible for FSI?</h5>
+			</div>
+			
+			<div id="subcontent4" class="subcontent">
+				<p>Using pharmacology I have found that nitric oxide is responsible for FSI. FSI is blocked by the application of the nNOs inhibitor L-NAME, NOs-GC antogonist ODQ, and potentiated by the nitric oxide precursor L-arginine. </p>
+			</div>
+			
+			
+			<div id="subheader5">
+				<h5>4. Physiological implication of FSI </h5>
+			</div>
+			
+			<div id="subcontent5" class="subcontent">
+				<p>Using dynamic clamp, I found that FSI indirectly increase the amplitude of EPSPs as FSI reduces inhibition from interneurons </p>
+			</div>
+			
+			
+			
+			
+			</div> <!--content end-->
+		
+		
+		
+	</div> <!--container end-->
+	
+	<div id="footer">
+		<td>email: gengyu.li@seh.ox.ac.uk</td>
+	</div> <!--footer end-->
+	
+</body>
+
+
+
+
+</html>
+
